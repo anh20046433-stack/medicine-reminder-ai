@@ -1,38 +1,112 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <title>Medicine Reminder AI</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-            background: #f4f6f9;
-        }
-        .btn {
-            display: inline-block;
-            padding: 15px 25px;
-            background: #2d89ef;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            font-size: 18px;
-        }
-        .btn:hover {
-            background: #1b5fbd;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medicine Reminder AI</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Phần header gradient */
+.hero {
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #4facfe, #00c9a7);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Nút */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Nút tải */
+.download {
+    background: white;
+    color: #007bff;
+}
+
+.download:hover {
+    background: #f0f0f0;
+}
+
+/* Nút hướng dẫn */
+.guide {
+    background: #28a745;
+    color: white;
+}
+
+.guide:hover {
+    background: #1e7e34;
+}
+
+/* Phần tính năng */
+.features {
+    padding: 60px 20px;
+    background: #f8f9fa;
+    color: #333;
+}
+
+.features h2 {
+    margin-bottom: 20px;
+}
+
+.feature-item {
+    margin: 10px 0;
+    font-size: 18px;
+}
+</style>
+
 </head>
 <body>
 
+<div class="hero">
     <h1>💊 Medicine Reminder AI</h1>
-    <p>Ứng dụng nhắc nhở uống thuốc bằng AI.</p>
+    <p>Ứng dụng nhắc nhở uống thuốc thông minh sử dụng AI GPT.  
+       Giúp bạn không bao giờ quên giờ uống thuốc.</p>
 
-    <a href="https://github.com/anh20046433-stack/medicine-reminder-ai/releases/latest/download/medicine_reminder_ai_gpt.exe" 
-       class="btn">
+    <a href="https://github.com/anh20046433-stack/medicine-reminder-ai/releases/latest/download/medicine_reminder_ai_gpt.exe"
+       class="btn download"
+       target="_blank">
        ⬇ Tải Ngay
     </a>
+
+    <a href="https://docs.google.com/document/d/130sYEyLRzB8wQoYNcdQvtpoXhpfekr0mgRN3HldAcD0/edit?usp=drivesdk"
+       class="btn guide"
+       target="_blank">
+       📘 Hướng Dẫn Sử Dụng
+    </a>
+</div>
+
+<div class="features">
+    <h2>Tính Năng Nổi Bật</h2>
+    <div class="feature-item">✅ Nhắc giờ uống thuốc chính xác</div>
+    <div class="feature-item">🔁 Lặp lại tự động mỗi ngày</div>
+    <div class="feature-item">🤖 Hỗ trợ AI GPT tư vấn thuốc</div>
+    <div class="feature-item">💾 Lưu dữ liệu tự động</div>
+    <div class="feature-item">🎨 Giao diện thân thiện</div>
+</div>
 
 </body>
 </html>
